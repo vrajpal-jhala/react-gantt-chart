@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "no-param-reassign": "off",
+    "no-nested-ternary": "off"
+  }
+}
